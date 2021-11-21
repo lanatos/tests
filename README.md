@@ -12,6 +12,6 @@
 
 При необходимости запуска в Firefox:
 
-	pytest --brower_name=firefix --alluredir <каталог для хранения отчетов, находящийся в workspace CI> -m smoke
+	pytest --browser_name=firefox --alluredir <каталог для хранения отчетов, находящийся в workspace CI> -m smoke
 
-	pytest --brower_name=firefix --alluredir <каталог для хранения отчетов, находящийся в workspace CI> -m regress
+	pytest --browser_name=firefox --alluredir <каталог для хранения отчетов, находящийся в workspace CI> -m regress
